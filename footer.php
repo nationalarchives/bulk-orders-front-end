@@ -148,5 +148,27 @@
 <script type="text/javascript" src="http://www.nationalarchives.gov.uk/wp-content/themes/tna-base/js/compiled/tna-base.min.js?ver=1.9"></script>
 <script type="text/javascript" src="https://www.nationalarchives.gov.uk/scripts/footer-img.js?ver=1.9"></script>
 <script type="text/javascript" src="http://www.nationalarchives.gov.uk/wp-includes/js/wp-embed.min.js?ver=4.4.13"></script>
+<script>
+
+    var $allDivs = $('#form-fields .form-row');
+    var count = 21;
+    $allDivs.hide();
+    $('.click').click( function(e) {
+        e.preventDefault(e);
+        if( count < $allDivs.length && $allDivs.not('[class="show"]') ) {
+            $allDivs.eq(count).show();
+            count++;
+        }
+    });
+    $('#form-fields input[type=text]').each(function(){
+        var $text_value = $(this).val();
+        if($text_value != '')
+        {
+            $(this).parent().removeClass('show');
+            $(this).parent().addClass('show');
+        }
+    });
+
+</script>
 </body>
 </html>
