@@ -222,7 +222,7 @@
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_12">Document 26</label>
-                                        <input type="text" id="reference_12" name="reference_12" class="medium" value="erfrferfer">
+                                        <input type="text" id="reference_12" name="reference_12" class="medium">
                                     </div>
 
 
