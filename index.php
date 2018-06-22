@@ -259,11 +259,7 @@
                                         <input type="email" id="email" name="email">
                                     </div>
                                 </fieldset>
-                                <div class="form-row checkbox">
-                                    <span id="privacy-policy-error" class="form-error form-hint"><span>Please agree to our privacy policy</span></span>
-                                    <input class="form-warning" type="checkbox" id="privacy_policy" name="privacy_policy" value="Yes" required aria-required="true" aria-describedby="privacy-policy-error">
-                                    <label for="privacy_policy">I have read and agree to The National Archives' <a href="http://www.nationalarchives.gov.uk/legal/privacy.htm" title="Opens in a new window" target="_blank">privacy statement </a></label>
-                                </div>
+                                <p>The National Archives takes your privacy seriously and we are committed to the responsible handling of personal information in accordance with our Information Charter. See our <a href="https://www.nationalarchives.gov.uk/legal/privacy.htm">privacy policy</a> for more details.</p>
                                 <div class="form-row submit"><input type="submit" name="submit-rre" id="submit-tna-form" value="Continue"></div>
                             </form>
                         </div>
