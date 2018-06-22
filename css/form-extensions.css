@@ -171,6 +171,16 @@ ul.no-bullet li {
 #form-fields .form-row {
 	margin-bottom: 9px !important;
 }
+#form-fields #add {
+	background: #efefef;
+	color: #666;
+	padding: 8px;
+	margin: 10px 0 20px 10px;
+	font-size: 0.9em;
+	border: 1px solid #ccc;
+	display: inline-block;
+
+}
 @media screen and (min-width: 1024px) {
 	.form-row input[type=text].medium {
 		width: 265px !important;
