@@ -8,7 +8,7 @@
                 <main id="main" class="col-xs-12 col-sm-8 col-md-8" role="main">
                     <article>
                         <div class="entry-header">
-                            <h1>Order documents in advance</h1>
+                            <h1>Bulk-order documents in advance</h1>
                         </div>
                         <div class="entry-content clearfix">
                             <div class="arrow-steps clearfix"">

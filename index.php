@@ -8,7 +8,7 @@
                 <main id="main" class="col-xs-12 col-sm-8 col-md-8" role="main">
                     <article>
                         <div class="entry-header">
-                            <h1>Order documents in advance</h1>
+                            <h1>Bulk-order documents in advance</h1>
                         </div>
                         <div class="entry-content clearfix">
                             <div class="arrow-steps clearfix"">
@@ -24,15 +24,27 @@
                                     <li>Insert valid reference numbers</li>
                                 </ul>
                             </div>
-                            <p>This form allows you to pre-order original documents held by The National Archives to view onsite at Kew. Find out more in <a href="http://www.nationalarchives.gov.uk/about/visit-us/researching-here/accessing-and-copying-documents/" title="">How to view and copy documents</a>.</p>
+                            <p>This form allows you to pre-order original documents held by The National Archives in bulk to view on site at Kew.</p>
+                            <p>Use this service to pre-order 20-40 documents from the same department and series. (You can use a different form to order up to 12 documents.)</p>
                             <p>To proceed with your order, you will need to know the following:</p>
                             <div class="emphasis-block">
                                 <ul>
                                     <li><b>Your reader’s ticket number</b>. If you don’t have one, <a href="https://secure.nationalarchives.gov.uk/login/yourdetails" title="">apply online for a reader’s ticket</a> - it only takes 15 minutes.</li>
-                                    <li><b>Date of visit</b>. Orders for next day delivery must be placed by 16:00. Documents held offsite will need to be ordered three working days in advance.</li>
-                                    <li><b>Catalogue reference(s)</b>. You can order up to 12 documents, and have up to 24 active on your ticket at any given time. You search the catalogue and locate references in advance, or search and populate the order fields from this page.</li>
+                                    <li><b>Date of visit</b>. You must bulk-order documents a minimum of three days before your visit. You cannot place bulk orders more than six weeks before your visit.</li>
+                                    <li><b>Catalogue reference(s)</b>. To place a bulk order, you must order a minimum of 20 documents.  You can order up to a maximum of 40 documents. Search the catalogue and locate references in advance, or search and populate the order fields from this page.</li>
                                 </ul>
                             </div>
+
+                            <h3>Please note</h3>
+                            <p>We will notify you if any of the documents you want to order are unavailable.</p>
+                            <p>If the documents you want to order are large, you may not be able to view all of them at the same time.</p>
+                            <p>We are unable to produce the following document series in bulk due to their size:</p>
+                            <ul>
+                                <li>BT 42</li>
+                                <li>BT 43</li>
+                                <li>BT 50</li>
+                                <li>BT 52</li>
+                            </ul>
                             <form action="step-2.php" method="POST" name="orderform" id="orderform" class="form-abandonment">
                                 <fieldset>
                                     <legend>Step 1</legend>
@@ -114,8 +126,8 @@
                                 <fieldset id="form-fields">
                                     <legend>Step 3</legend>
                                     <div class="form-row show">
-                                        <p class="form-hint">Please provide the full series reference code and individual piece references into each field below <br> e.g FO 608/88/3</p>
-                                        <p class="form-hint"><b>You must provide a minimum of 20 and a maximum of 40</b></p>
+                                        <p class="form-hint">Please provide the full series reference code and individual piece references into each field below, <br> e.g FO 608/88/3</p>
+                                        <p class="form-hint">You must provide a minimum of 20 document references. You can provide up to a maximum of 40. (Please use a different form to order up to 12 documents.)</p>
                                     </div>
 
                                     <div class="form-row show">
@@ -170,59 +182,59 @@
                                         <input type="text" id="reference_12" name="reference_12" class="medium">
                                     </div>
                                     <div class="form-row show">
-                                        <label for="reference_12">Document 13</label>
+                                        <label for="reference_13">Document 13</label>
                                         <input type="text" id="reference_13" name="reference_13" class="medium">
                                     </div>
                                     <div class="form-row show">
-                                        <label for="reference_12">Document 14</label>
+                                        <label for="reference_14">Document 14</label>
                                         <input type="text" id="reference_14" name="reference_14" class="medium">
                                     </div>
                                     <div class="form-row show">
-                                        <label for="reference_12">Document 15</label>
+                                        <label for="reference_15">Document 15</label>
                                         <input type="text" id="reference_15" name="reference_15" class="medium">
                                     </div>
                                     <div class="form-row show">
-                                        <label for="reference_12">Document 16</label>
+                                        <label for="reference_16">Document 16</label>
                                         <input type="text" id="reference_16" name="reference_16" class="medium">
                                     </div>
                                     <div class="form-row show">
-                                        <label for="reference_12">Document 17</label>
+                                        <label for="reference_17">Document 17</label>
                                         <input type="text" id="reference_17" name="reference_17" class="medium">
                                     </div>
                                     <div class="form-row show">
-                                        <label for="reference_12">Document 18</label>
+                                        <label for="reference_18">Document 18</label>
                                         <input type="text" id="reference_18" name="reference_18" class="medium">
                                     </div>
                                     <div class="form-row show">
-                                        <label for="reference_12">Document 19</label>
+                                        <label for="reference_19">Document 19</label>
                                         <input type="text" id="reference_19" name="reference_19" class="medium">
                                     </div>
                                     <div class="form-row show">
-                                        <label for="reference_12">Document 20</label>
+                                        <label for="reference_20">Document 20</label>
                                         <input type="text" id="reference_20" name="reference_20" class="medium">
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_12">Document 21</label>
+                                        <label for="reference_21">Document 21</label>
                                         <input type="text" id="reference_21" name="reference_21" class="medium">
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_12">Document 22</label>
+                                        <label for="reference_22">Document 22</label>
                                         <input type="text" id="reference_22" name="reference_22" class="medium">
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_12">Document 23</label>
+                                        <label for="reference_23">Document 23</label>
                                         <input type="text" id="reference_23" name="reference_23" class="medium">
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_12">Document 24</label>
+                                        <label for="reference_24">Document 24</label>
                                         <input type="text" id="reference_24" name="reference_24" class="medium">
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_12">Document 25</label>
+                                        <label for="reference_25">Document 25</label>
                                         <input type="text" id="reference_25" name="reference_25" class="medium">
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_12">Document 26</label>
+                                        <label for="reference_26">Document 26</label>
                                         <input type="text" id="reference_26" name="reference_26" class="medium">
                                     </div>
                                     <div class="form-row show" id="additional-requirements">
