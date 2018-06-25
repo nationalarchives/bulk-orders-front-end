@@ -19,11 +19,11 @@
                                 </ul>
                             </div>
                             <h2>Place an order</h2>
-                            <div class="emphasis-block error-message" role="alert"><h2>There was a problem:</h2>
+                            <!-- <div class="emphasis-block error-message" role="alert"><h2>There was a problem:</h2>
                                 <ul>
                                     <li>Insert valid reference numbers</li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <p>This form allows you to pre-order original documents held by The National Archives in bulk to view on site at Kew.</p>
                             <p>Use this service to pre-order 20-40 documents from the same department and series. (You can use a different form to order up to 12 documents.)</p>
                             <p>To proceed with your order, you will need to know the following:</p>
@@ -58,11 +58,11 @@
                                     <legend>Step 2</legend>
                                     <div class="form-row">
                                         <p class="form-hint">Select the date you plan to visit. Check our <a href="" title="">opening times</a>.</p>
-                                        <span id="date-of-visit-day-error" class="form-error form-hint"><span>Select a day</span></span>
+                                        <span id="date-of-visit-day" class="form-hint"><span>Select a day</span></span>
                                         <div id="groupErrorPlacement">
                                             <span class="dob-col day">
                                                 <label id="day" for="dov_day">Day</label>
-                                                <select type="number" aria-labelledby="dov day" id="dov_day" name="dov_day" class="form-warning" aria-describedby="date-of-visit-day-error">
+                                                <select type="number" aria-labelledby="dov day" id="dov_day" name="dov_day" aria-describedby="date-of-visit-day">
                                                     <option>1</option>
                                                     <option>2</option>
                                                     <option>3</option>
@@ -132,18 +132,18 @@
 
                                     <div class="form-row show">
                                         <label for="reference_1">Document 1</label>
-                                        <span id="reference-1-error" class="form-error form-hint"><span>Insert a reference number</span></span>
-                                        <input type="text" id="reference_1" name="reference_1" class="medium form-warning" required aria-required="true" aria-describedby="reference-1-error">
+                                        <!-- <span id="reference-1-error" class="form-error form-hint"><span>Insert a reference number</span></span> -->
+                                        <input type="text" id="reference_1" name="reference_1" class="medium" required aria-required="true" aria-describedby="reference-1">
                                     </div>
                                     <div class="form-row show">
                                         <label for="reference_2">Document 2</label>
-                                        <span id="reference-2   -error" class="form-error form-hint"><span>Insert a reference number</span></span>
-                                        <input type="text" id="reference_2" name="reference_2" class="medium form-warning" required aria-required="true" aria-describedby="reference-2-error">
+                                        <!-- <span id="reference-2   -error" class="form-error form-hint"><span>Insert a reference number</span></span> -->
+                                        <input type="text" id="reference_2" name="reference_2" class="medium" required aria-required="true" aria-describedby="reference-2">
                                     </div>
                                     <div class="form-row show">
                                         <label for="reference_3">Document 3</label>
-                                        <span id="reference-3-error" class="form-error form-hint"><span>Insert a reference number</span></span>
-                                        <input type="text" id="reference_3" class="medium form-warning" required aria-required="true" aria-describedby="reference-3-error">
+                                        <!-- <span id="reference-3-error" class="form-error form-hint"><span>Insert a reference number</span></span> -->
+                                        <input type="text" id="reference_3" class="medium" required aria-required="true" aria-describedby="reference-3">
                                     </div>
                                     <div class="form-row show">
                                         <label for="reference_4">Document 4</label>
