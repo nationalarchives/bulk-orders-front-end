@@ -31,7 +31,7 @@
                                 <ul>
                                     <li><b>Your reader’s ticket number</b>. If you don’t have one, <a href="https://secure.nationalarchives.gov.uk/login/yourdetails" title="">apply online for a reader’s ticket</a> - it should take 15 minutes.</li>
                                     <li><b>Date of visit</b>. You can bulk-order documents a minimum of three days before your visit. You cannot place bulk orders more than six weeks before your visit.</li>
-                                    <li><b>Catalogue reference(s)</b>. You can order a minimum of 20 documents up to a maximum of 40 documents.</li>
+                                    <li><b>Catalogue reference(s)</b>. You can order a minimum of 20 documents and up to a maximum of 40 documents.</li>
                                 </ul>
                             </div>
 
