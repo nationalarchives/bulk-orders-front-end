@@ -24,27 +24,25 @@
                                     <li>Insert valid reference numbers</li>
                                 </ul>
                             </div> -->
-                            <p>This form allows you to pre-order original documents held by The National Archives in bulk to view on site at Kew.</p>
-                            <p>Use this service to pre-order 20-40 documents from the same department and series. (You can use a different form to order up to 12 documents.)</p>
-                            <p>To proceed with your order, you will need to know the following:</p>
+                            <p>This form allows you to pre-order 20-40 original documents from the <b>same series</b> held by The National Archives to view on site at Kew.</p>
+                            <p>You can use a <a href="https://www.nationalarchives.gov.uk/order-documents-in-advance/" title="">different form</a> to order up to 12 documents in advance from different series.</p>
+                            <p>To proceed with your order, you will need the following:</p>
                             <div class="emphasis-block">
                                 <ul>
-                                    <li><b>Your reader’s ticket number</b>. If you don’t have one, <a href="https://secure.nationalarchives.gov.uk/login/yourdetails" title="">apply online for a reader’s ticket</a> - it only takes 15 minutes.</li>
-                                    <li><b>Date of visit</b>. You must bulk-order documents a minimum of three days before your visit. You cannot place bulk orders more than six weeks before your visit.</li>
-                                    <li><b>Catalogue reference(s)</b>. To place a bulk order, you must order a minimum of 20 documents.  You can order up to a maximum of 40 documents. Search the catalogue and locate references in advance, or search and populate the order fields from this page.</li>
+                                    <li><b>Your reader’s ticket number</b>. If you don’t have one, <a href="https://secure.nationalarchives.gov.uk/login/yourdetails" title="">apply online for a reader’s ticket</a> - it should take 15 minutes.</li>
+                                    <li><b>Date of visit</b>. You can bulk-order documents a minimum of three days before your visit. You cannot place bulk orders more than six weeks before your visit.</li>
+                                    <li><b>Catalogue reference(s)</b>. You can order a minimum of 20 documents up to a maximum of 40 documents.</li>
                                 </ul>
                             </div>
 
                             <h3>Please note</h3>
+                            <p>We are unable to produce the following document series in bulk due to their size:</p>
+                            <div class="emphasis-block">
+                                <p>BT 42, BT 43, BT 50, BT 52, PROB 4, C 13, C 14, E 112, KB 122</p>
+                            </div>
                             <p>We will notify you if any of the documents you want to order are unavailable.</p>
                             <p>If the documents you want to order are large, you may not be able to view all of them at the same time.</p>
-                            <p>We are unable to produce the following document series in bulk due to their size:</p>
-                            <ul>
-                                <li>BT 42</li>
-                                <li>BT 43</li>
-                                <li>BT 50</li>
-                                <li>BT 52</li>
-                            </ul>
+
                             <form action="step-2.php" method="POST" name="orderform" id="orderform" class="form-abandonment">
                                 <fieldset>
                                     <legend>Step 1</legend>
