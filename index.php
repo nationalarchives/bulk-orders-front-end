@@ -129,7 +129,7 @@
                                     <div class="form-row">
                                         <div class="emphasis-block">
                                             <label for="series_number">Series number</label>
-                                            <input type="text" id="series_number" name="series_number" required aria-required="true" class="medium">
+                                            <input type="text" id="series_number" name="series_number" class="medium">
                                         </div>
                                     </div>
                                     <div class="form-row">
@@ -139,16 +139,16 @@
                                         <div class="col-md-6">
                                             <div class="form-row">
                                                 <label for="reference_1">1</label>
-                                                <input type="text" class="form-warning" id="reference_1" name="reference_1" required aria-required="true" aria-describedby="reference-1">
+                                                <input type="text" class="form-warning" id="reference_1" name="reference_1" aria-describedby="reference-1">
                                                 <span id="reference-1-error" class="form-error form-hint"><span>Insert a reference number</span></span>
                                             </div>
                                             <div class="form-row">
                                                 <label for="reference_2">2</label>
-                                                <input type="text" id="reference_2" name="reference_2" required aria-required="true" aria-describedby="reference-2">
+                                                <input type="text" id="reference_2" name="reference_2" aria-describedby="reference-2">
                                             </div>
                                             <div class="form-row">
                                                 <label for="reference_3">3</label>
-                                                <input type="text" id="reference_3" required aria-required="true" aria-describedby="reference-3">
+                                                <input type="text" id="reference_3" aria-describedby="reference-3">
                                             </div>
                                             <div class="form-row">
                                                 <label for="reference_4">4</label>
@@ -312,11 +312,11 @@
                                     <legend>Step 4</legend>
                                     <div class="form-row">
                                         <label for="full_name">Full name</label>
-                                        <input type="text" id="full_name" name="full_name" required aria-required="true">
+                                        <input type="text" id="full_name" name="full_name">
                                     </div>
                                     <div class="form-row">
                                         <label for="tel">Telephone (include area code)</label>
-                                        <input type="text" id="tel" name="tel" required aria-required="true">
+                                        <input type="text" id="tel" name="tel">
                                     </div>
                                     <div class="form-row">
                                         <label for="email_address">Email</label>
