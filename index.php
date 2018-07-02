@@ -125,13 +125,15 @@
                                     <legend>Step 3</legend>
                                     <div class="form-row">
                                         <p class="form-hint">Please provide the full series reference code and individual piece references into each field below, <br> e.g FO 608/88/3</p>
-                                        <p class="form-hint">You must provide a minimum of 20 document references. You can provide up to a maximum of 40. (Please use a different form to order up to 12 documents.)</p>
                                     </div>
                                     <div class="form-row">
                                         <div class="emphasis-block">
                                             <label for="series_number">Series number</label>
                                             <input type="text" id="series_number" name="series_number" required aria-required="true" class="medium">
                                         </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <p class="form-hint">You must provide a minimum of 20 document references. You can provide up to a maximum of 40. (Please use a different form to order up to 12 documents.)</p>
                                     </div>
                                     <div class="container" id="form-fields">
                                         <div class="col-md-6">
