@@ -124,16 +124,17 @@
                                 <fieldset>
                                     <legend>Step 3</legend>
                                     <div class="form-row">
-                                        <p class="form-hint">Please provide the full series reference code and individual piece references into each field below, <br> e.g FO 608/88/3</p>
+                                        <p class="form-hint">Provide the department and series number of the documents you wish to order, for example FO 608.</p>
                                     </div>
                                     <div class="form-row">
                                         <div class="emphasis-block">
-                                            <label for="series_number">Series number</label>
+                                            <label for="series_number">Department and series number</label>
                                             <input type="text" id="series_number" name="series_number" class="medium">
                                         </div>
                                     </div>
                                     <div class="form-row">
-                                        <p class="form-hint">You must provide a minimum of 20 document references. You can provide up to a maximum of 40. (Please use a different form to order up to 12 documents.)</p>
+                                        <p class="form-hint">Enter the full catalogue references, including the department and series number, of the documents you wish to order below, for example FO 608/88/3.</p>
+                                        <p class="form-hint">The minimum number of documents you can bulk order is 20.</p>
                                     </div>
                                     <div class="container" id="form-fields">
                                         <div class="col-md-6">
@@ -304,7 +305,7 @@
                                     </div>
                                     <div class="form-row show" id="additional-requirements">
                                         <label for="requirements">Additional requirements <span class="optional">(optional)</span></label>
-                                        <p class="form-hint">Tell us if you have any accessibility requirements or special requests. We cannot guarantee that all documents ordered will be available.</p>
+                                        <p class="form-hint">Tell us if you haCve any accessibility requirements or special requests. We cannot guarantee that all documents ordered will be available.</p>
                                         <textarea id="requirements" name="requirements"></textarea>
                                     </div>
                                 </fieldset>
