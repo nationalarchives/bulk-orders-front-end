@@ -121,119 +121,184 @@
                                         </div>
                                     </div>
                                 </fieldset>
-                                <fieldset id="form-fields">
+                                <fieldset>
                                     <legend>Step 3</legend>
-                                    <div class="form-row show">
+                                    <div class="form-row">
                                         <p class="form-hint">Please provide the full series reference code and individual piece references into each field below, <br> e.g FO 608/88/3</p>
                                         <p class="form-hint">You must provide a minimum of 20 document references. You can provide up to a maximum of 40. (Please use a different form to order up to 12 documents.)</p>
                                     </div>
-
-                                    <div class="form-row show">
-                                        <label for="reference_1">Document 1</label>
-                                        <!-- <span id="reference-1-error" class="form-error form-hint"><span>Insert a reference number</span></span> -->
-                                        <input type="text" id="reference_1" name="reference_1" class="medium" required aria-required="true" aria-describedby="reference-1">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_2">Document 2</label>
-                                        <!-- <span id="reference-2   -error" class="form-error form-hint"><span>Insert a reference number</span></span> -->
-                                        <input type="text" id="reference_2" name="reference_2" class="medium" required aria-required="true" aria-describedby="reference-2">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_3">Document 3</label>
-                                        <!-- <span id="reference-3-error" class="form-error form-hint"><span>Insert a reference number</span></span> -->
-                                        <input type="text" id="reference_3" class="medium" required aria-required="true" aria-describedby="reference-3">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_4">Document 4</label>
-                                        <input type="text" id="reference_4" name="reference_4" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_5">Document 5</label>
-                                        <input type="text" id="reference_5" name="reference_5" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_6">Document 6</label>
-                                        <input type="text" id="reference_6" name="reference_6" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_7">Document 7</label>
-                                        <input type="text" id="reference_7" name="reference_7" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_8">Document 8</label>
-                                        <input type="text" id="reference_8" name="reference_8" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_9">Document 9</label>
-                                        <input type="text" id="reference_9" name="reference_9" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_10">Document 10</label>
-                                        <input type="text" id="reference_10" name="reference_10" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_11">Document 11</label>
-                                        <input type="text" id="reference_11" name="reference_11" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_12">Document 12</label>
-                                        <input type="text" id="reference_12" name="reference_12" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_13">Document 13</label>
-                                        <input type="text" id="reference_13" name="reference_13" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_14">Document 14</label>
-                                        <input type="text" id="reference_14" name="reference_14" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_15">Document 15</label>
-                                        <input type="text" id="reference_15" name="reference_15" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_16">Document 16</label>
-                                        <input type="text" id="reference_16" name="reference_16" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_17">Document 17</label>
-                                        <input type="text" id="reference_17" name="reference_17" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_18">Document 18</label>
-                                        <input type="text" id="reference_18" name="reference_18" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_19">Document 19</label>
-                                        <input type="text" id="reference_19" name="reference_19" class="medium">
-                                    </div>
-                                    <div class="form-row show">
-                                        <label for="reference_20">Document 20</label>
-                                        <input type="text" id="reference_20" name="reference_20" class="medium">
-                                    </div>
                                     <div class="form-row">
-                                        <label for="reference_21">Document 21</label>
-                                        <input type="text" id="reference_21" name="reference_21" class="medium">
+                                        <div class="emphasis-block">
+                                            <label for="series_number">Series number</label>
+                                            <input type="text" id="series_number" name="series_number" required aria-required="true" class="medium">
+                                        </div>
                                     </div>
-                                    <div class="form-row">
-                                        <label for="reference_22">Document 22</label>
-                                        <input type="text" id="reference_22" name="reference_22" class="medium">
-                                    </div>
-                                    <div class="form-row">
-                                        <label for="reference_23">Document 23</label>
-                                        <input type="text" id="reference_23" name="reference_23" class="medium">
-                                    </div>
-                                    <div class="form-row">
-                                        <label for="reference_24">Document 24</label>
-                                        <input type="text" id="reference_24" name="reference_24" class="medium">
-                                    </div>
-                                    <div class="form-row">
-                                        <label for="reference_25">Document 25</label>
-                                        <input type="text" id="reference_25" name="reference_25" class="medium">
-                                    </div>
-                                    <div class="form-row">
-                                        <label for="reference_26">Document 26</label>
-                                        <input type="text" id="reference_26" name="reference_26" class="medium">
+                                    <div class="container" id="form-fields">
+                                        <div class="col-md-6">
+                                            <div class="form-row">
+                                                <label for="reference_1">1</label>
+                                                <input type="text" class="form-warning" id="reference_1" name="reference_1" required aria-required="true" aria-describedby="reference-1">
+                                                <span id="reference-1-error" class="form-error form-hint"><span>Insert a reference number</span></span>
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_2">2</label>
+                                                <input type="text" id="reference_2" name="reference_2" required aria-required="true" aria-describedby="reference-2">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_3">3</label>
+                                                <input type="text" id="reference_3" required aria-required="true" aria-describedby="reference-3">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_4">4</label>
+                                                <input type="text" id="reference_4" name="reference_4">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_5">5</label>
+                                                <input type="text" id="reference_5" name="reference_5">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_6">6</label>
+                                                <input type="text" id="reference_6" name="reference_6">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_7">7</label>
+                                                <input type="text" id="reference_7" name="reference_7">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_8">8</label>
+                                                <input type="text" id="reference_8" name="reference_8">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_9">9</label>
+                                                <input type="text" id="reference_9" name="reference_9">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_10">10</label>
+                                                <input type="text" id="reference_10" name="reference_10">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_11">11</label>
+                                                <input type="text" id="reference_11" name="reference_11">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_12">12</label>
+                                                <input type="text" id="reference_12" name="reference_12">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_13">13</label>
+                                                <input type="text" id="reference_13" name="reference_13">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_14">14</label>
+                                                <input type="text" id="reference_14" name="reference_14">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_15">15</label>
+                                                <input type="text" id="reference_15" name="reference_15">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_16">16</label>
+                                                <input type="text" id="reference_16" name="reference_16">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_17">17</label>
+                                                <input type="text" id="reference_17" name="reference_17">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_18">18</label>
+                                                <input type="text" id="reference_18" name="reference_18">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_19">19</label>
+                                                <input type="text" id="reference_19" name="reference_19">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_20">20</label>
+                                                <input type="text" id="reference_20" name="reference_20">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-row">
+                                                <label for="reference_21">21</label>
+                                                <input type="text" id="reference_21" name="reference_21">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_22">22</label>
+                                                <input type="text" id="reference_22" name="reference_22">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_23">23</label>
+                                                <input type="text" id="reference_23" name="reference_23">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_24">24</label>
+                                                <input type="text" id="reference_24" name="reference_24">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_25">25</label>
+                                                <input type="text" id="reference_25" name="reference_25">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_26">26</label>
+                                                <input type="text" id="reference_26" name="reference_26">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_27">27</label>
+                                                <input type="text" id="reference_27" name="reference_27">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_28">28</label>
+                                                <input type="text" id="reference_28" name="reference_28">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_29">29</label>
+                                                <input type="text" id="reference_29" name="reference_29">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_30">30</label>
+                                                <input type="text" id="reference_30" name="reference_30">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_31">31</label>
+                                                <input type="text" id="reference_31" name="reference_31">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_32">32</label>
+                                                <input type="text" id="reference_32" name="reference_32">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_33">33</label>
+                                                <input type="text" id="reference_33" name="reference_33">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_34">34</label>
+                                                <input type="text" id="reference_34" name="reference_34">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_35">35</label>
+                                                <input type="text" id="reference_35" name="reference_35">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_36">36</label>
+                                                <input type="text" id="reference_36" name="reference_36">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_37">37</label>
+                                                <input type="text" id="reference_37" name="reference_37">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_38">38</label>
+                                                <input type="text" id="reference_38" name="reference_38">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_39">39</label>
+                                                <input type="text" id="reference_39" name="reference_39">
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="reference_40">40</label>
+                                                <input type="text" id="reference_40" name="reference_40">
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="form-row show" id="additional-requirements">
                                         <label for="requirements">Additional requirements <span class="optional">(optional)</span></label>
@@ -252,7 +317,7 @@
                                         <input type="text" id="tel" name="tel" required aria-required="true">
                                     </div>
                                     <div class="form-row">
-                                        <label for="email_address">Email <span class="optional">(optional)</span></label>
+                                        <label for="email_address">Email</label>
                                         <p class="form-hint">Enter email address to receive a copy of your order.</p>
                                         <input type="email" id="email" name="email">
                                     </div>

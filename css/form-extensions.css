@@ -161,12 +161,19 @@ ul.no-bullet li {
 	border-left: 4px solid #008484;
 	background: #e5f2f2;
 }
+#form-fields {
+	margin-bottom: 40px;
+}
 #form-fields label, #form-fields input {
 	float: left;
-	width: auto !important;
+}
+#form-fields input {
+	width: 80% !important;
+	min-width: 80% !important;
 }
 #form-fields label {
-	display: none;
+	margin: 5px 0 0 0 !important;
+	width: 35px !important;
 }
 #form-fields .form-row {
 	margin-bottom: 9px !important;
@@ -179,8 +186,19 @@ ul.no-bullet li {
 	font-size: 0.9em;
 	border: 1px solid #ccc;
 	display: inline-block;
-
 }
+#form-fields .form-row .form-error span {
+	width: 100% !important;
+	display: inline-block;
+	margin-left: 35px;
+}
+fieldset .emphasis-block {
+	padding: 1.2em !important;
+	border: 0 !important;
+	margin-top: 0;
+	border: 0;
+}
+
 @media screen and (min-width: 1024px) {
 	.form-row input[type=text].medium {
 		width: 265px !important;

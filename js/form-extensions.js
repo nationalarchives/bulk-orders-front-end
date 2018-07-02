@@ -1,4 +1,4 @@
-$('#additional-requirements').before('<a id="add" href="#">Add a field</a>');
+/* $('#additional-requirements').before('<a id="add" href="#">Add a field</a>');
 var $allDivs = $('#form-fields .form-row');
 var count = 21;
 $allDivs.hide();
@@ -16,5 +16,5 @@ $('#form-fields input[type=text]').each(function(){
         $(this).parent().removeClass('show');
         $(this).parent().addClass('show');
     }
-});
+}); */
 
