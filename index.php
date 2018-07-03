@@ -304,12 +304,12 @@
                                     </div>
                                     <div class="form-row show" id="additional-requirements">
                                         <label for="requirements">Additional requirements <span class="optional">(optional)</span></label>
-                                        <p class="form-hint">Tell us if you haCve any accessibility requirements or special requests. We cannot guarantee that all documents ordered will be available.</p>
+                                        <p class="form-hint">Tell us if you have any accessibility requirements or special requests. We cannot guarantee that all documents ordered will be available.</p>
                                         <textarea id="requirements" name="requirements"></textarea>
                                     </div>
                                 </fieldset>
                                 <fieldset>
-                                    <legend>Step 4</legend>
+                                    <legend>Step 5</legend>
                                     <div class="form-row">
                                         <label for="full_name">Full name</label>
                                         <input type="text" id="full_name" name="full_name">
