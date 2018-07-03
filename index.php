@@ -132,7 +132,7 @@
                                 <fieldset>
                                     <legend>Step 4</legend>
                                     <div class="form-row">
-                                        <p class="form-hint">Enter the full catalogue references, for example FO 608/88/3.</p>
+                                        <p class="form-hint">Enter the <b>full catalogue references</b>, for example FO 608/88/3.</p>
                                         <p class="form-hint">The minimum number of documents you can bulk order is 20.</p>
                                     </div>
                                     <div class="container" id="form-fields">
