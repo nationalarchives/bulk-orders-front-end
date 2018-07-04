@@ -49,7 +49,7 @@
                                     <div class="form-row">
                                         <label for="readers_ticket">Reader's ticket number</label>
                                         <p class="form-hint">Enter the number located on the back of your reader’s ticket, or the temporary number issued to you at the end of the reader’s ticket registration process.</p>
-                                        <input type="text" id="readers_ticket" name="readers_ticket" class="small" required aria-required="true">
+                                        <input type="text" id="readers_ticket" name="readers_ticket" class="small">
                                     </div>
                                 </fieldset>
                                 <fieldset>
