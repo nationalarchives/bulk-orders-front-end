@@ -61,7 +61,7 @@ img.scope-selector {
 }
 .two-tier-list li {
 	margin: 0 0 20px 0;
-	padding: 0 0 10px 0;
+	padding: 0 0 10px 10px;
 	font-family: 'Open sans', sans-serif;
 	font-weight: bold;
 	font-size: 1em;
@@ -70,9 +70,7 @@ img.scope-selector {
 }
 .two-tier-list li span {
 	font-size: 0.9em;
-	display: inline-block;
 	font-weight: normal;
-	margin-left: 15px;
 }
 legend {
 	font-size: 1.3em !important;
@@ -137,7 +135,6 @@ legend {
 	float: right;
 }
 ol li {
-	list-style-type: none;
 	list-style-position: outside;
 }
 ul.no-bullet {
