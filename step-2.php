@@ -19,11 +19,12 @@
                                 </ul>
                             </div>
                         <h2>Check your order</h2>
-                        <p>Review your order and click continue to confirm, or back to make an amend.</p>
+                        <p>Review your order and click 'Complete order' to confirm, or 'Back' to make an amend.</p>
 
                         <div class="emphasis-block">
                             <ul class="no-bullet">
                                 <li><b>Name</b>: Joe Bloggs</li>
+                                <li><b>Email address</b>: joe@bloggs.com</li>
                                 <li><b>Telephone</b>: 07898 989898</li>
                                 <li><b>Date of visit</b>: 27 Jan 2018</li>
                             </ul>
@@ -31,14 +32,14 @@
 
                         <form action="step-3.php" method="POST" id="orderformconfirm" name="orderformconfirm">
                             <ol class="two-tier-list">
-                                <li>Document 1<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
-                                <li>Document 2<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
-                                <li>Document 3<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
-                                <li>Document 4<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
-                                <li>Document 5<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
-                                <li>Document 6<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
-                                <li>Document 7<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
-                                <li>Document 8<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>1<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>2<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>3<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>4<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>5<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>6<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>7<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>8<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
                             </ol>
                             <div class="form-row submit">
                                 <a href="index.php" title="continue" class="back">&lt; Back</a>
