@@ -70,8 +70,9 @@ img.scope-selector {
 }
 .two-tier-list li span {
 	font-size: 0.9em;
-	display: block;
+	display: inline-block;
 	font-weight: normal;
+	margin-left: 15px;
 }
 legend {
 	font-size: 1.3em !important;
