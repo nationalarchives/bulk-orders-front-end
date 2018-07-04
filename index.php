@@ -43,7 +43,7 @@
                             <p>We will notify you if any of the documents you want to order are unavailable.</p>
                             <p>If the documents you want to order are large, you may not be able to view all of them at the same time.</p>
 
-                            <form action="step-2.php" method="POST" name="orderform" id="orderform" class="form-abandonment">
+                            <form action="step-2.php" method="POST" name="bulk-order-form" id="bulk-order-form" class="form-abandonment">
                                 <fieldset>
                                     <legend>Step 1</legend>
                                     <div class="form-row">

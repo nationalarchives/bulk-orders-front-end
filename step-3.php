@@ -34,7 +34,6 @@
                                 <li><b>Date of visit</b>: 27 Jan 2018</li>
                             </ul>
                         </div>
-                        <form action="step-3.php" method="POST" id="orderformconfirm" name="orderformconfirm">
                             <ol class="two-tier-list">
                                 <li><span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
                                 <li><span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>

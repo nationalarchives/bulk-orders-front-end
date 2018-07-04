@@ -30,7 +30,7 @@
                             </ul>
                         </div>
 
-                        <form action="step-3.php" method="POST" id="orderformconfirm" name="orderformconfirm">
+                        <form action="step-3.php" method="POST" id="bulk-order-form-confirm" name="bulk-order-form-confirm">
                             <ol class="two-tier-list">
                                 <li><span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
                                 <li><span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
