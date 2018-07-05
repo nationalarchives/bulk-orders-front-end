@@ -11,7 +11,7 @@
                             <h1>Bulk-order documents in advance</h1>
                         </div>
                         <div class="entry-content clearfix">
-                            <div class="arrow-steps clearfix"">
+                            <div class="arrow-steps clearfix">
                                 <ul>
                                     <li class="current"><span>1</span> Place order</li>
                                     <li><span>2</span> Check order</li>
@@ -139,8 +139,8 @@
                                         <div class="col-md-6">
                                             <div class="form-row">
                                                 <label for="reference_1">1</label>
-                                                <input type="text" class="form-warning" id="reference_1" name="reference_1" aria-describedby="reference-1">
-                                                <span id="reference-1-error" class="form-error form-hint"><span>Insert a reference number</span></span>
+                                                <input type="text" id="reference_1" name="reference_1" aria-describedby="reference-1">
+                                                <!-- <span id="reference-1-error" class="form-error form-hint"><span>Insert a reference number</span></span> -->
                                             </div>
                                             <div class="form-row">
                                                 <label for="reference_2">2</label>
