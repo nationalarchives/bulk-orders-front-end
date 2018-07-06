@@ -318,7 +318,7 @@
                                         <input type="text" id="tel" name="tel">
                                     </div>
                                     <div class="form-row">
-                                        <label for="email_address">Email</label>
+                                        <label for="email_address">Email address <span class="optional">(optional)</span></label>
                                         <p class="form-hint">Enter email address to receive a copy of your order.</p>
                                         <input type="email" id="email" name="email">
                                     </div>
