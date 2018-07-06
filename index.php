@@ -124,15 +124,14 @@
                                 <fieldset>
                                     <legend>Step 3</legend>
                                     <div class="form-row">
-                                        <label for="series_number">Department and series number</label>
-                                        <p class="form-hint">Provide the department and series number of the documents you wish to order, for example FO 608.</p>
+                                        <label for="series_number">Department and series number, for example, FO 371</label>
                                         <input type="text" id="series_number" name="series_number" class="medium">
                                     </div>
                                 </fieldset>
                                 <fieldset>
                                     <legend>Step 4</legend>
                                     <div class="form-row">
-                                        <p class="form-hint">Enter the <b>full catalogue references</b>, for example FO 608/88/3.</p>
+                                        <p class="form-hint">Enter the <b>full catalogue references</b>, for example FO 371/114865.</p>
                                         <p class="form-hint">The minimum number of documents you can bulk order is 20.</p>
                                     </div>
                                     <div class="container" id="form-fields">

@@ -20,7 +20,7 @@
                             </div>
                         <h2>Order complete</h2>
                         <div class="emphasis-block success">
-                            <p>Your bulk-order has been successfully submitted.
+                            <p>Your bulk order has been successfully submitted.
                                 <br>
                                 <a href="https://www.smartsurvey.co.uk/s/AOBQR/" title="" class="small">Survey text here</a>
                             </p>
