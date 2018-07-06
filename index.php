@@ -9,7 +9,7 @@
                     <article>
                         <div class="entry-header">
                             <h1>Bulk-order documents in advance</h1>
-                        </div>
+                        </div><!-- end entry-header -->
                         <div class="entry-content clearfix">
                             <div class="arrow-steps clearfix">
                                 <ul>
@@ -17,13 +17,13 @@
                                     <li><span>2</span> Check order</li>
                                     <li><span>3</span> Order complete</li>
                                 </ul>
-                            </div>
+                            </div><!-- end arrow-steps -->
                             <h2>Place an order</h2>
-                            <!-- <div class="emphasis-block error-message" role="alert"><h2>There was a problem:</h2>
+                            <div class="emphasis-block error-message" role="alert"><h2>There was a problem:</h2>
                                 <ul>
                                     <li>Insert valid reference numbers</li>
                                 </ul>
-                            </div> -->
+                            </div><!-- end emphasis-block error-message -->
                             <p>This form allows you to pre-order 20-40 original documents from the <b>same series</b> held by The National Archives to view on site at Kew.</p>
                             <p>You can use a <a href="https://www.nationalarchives.gov.uk/order-documents-in-advance/" title="">different form</a> to order up to 12 documents in advance from different series.</p>
                             <p>To proceed with your order, you will need the following:</p>
@@ -33,13 +33,13 @@
                                     <li><b>Date of visit</b>. You can bulk-order documents a minimum of three days before your visit. You cannot place bulk orders more than six weeks before your visit.</li>
                                     <li><b>Catalogue reference(s)</b>. You can order a minimum of 20 documents up to a maximum of 40 documents.</li>
                                 </ul>
-                            </div>
+                            </div><!-- end emphasis-block -->
 
                             <h3>Please note</h3>
                             <p>We are unable to produce the following document series in bulk due to their size:</p>
                             <div class="emphasis-block">
                                 <p>BT 42, BT 43, BT 50, BT 52, PROB 4, C 13, C 14, E 112, KB 122</p>
-                            </div>
+                            </div><!-- end emphasis-block -->
                             <p>We will notify you if any of the documents you want to order are unavailable.</p>
                             <p>If the documents you want to order are large, you may not be able to view all of them at the same time.</p>
 
@@ -50,7 +50,7 @@
                                         <label for="readers_ticket">Reader's ticket number</label>
                                         <p class="form-hint">Enter the number located on the back of your reader’s ticket, or the temporary number issued to you at the end of the reader’s ticket registration process.</p>
                                         <input type="text" id="readers_ticket" name="readers_ticket" class="small">
-                                    </div>
+                                    </div><!-- end form-row -->
                                 </fieldset>
                                 <fieldset>
                                     <legend>Step 2</legend>
@@ -118,218 +118,218 @@
                                                     <option>2019</option>
                                                 </select>
                                             </span>
-                                        </div>
-                                    </div>
+                                        </div><!-- end groupErrorPlacement -->
+                                    </div><!-- end form-row -->
                                 </fieldset>
                                 <fieldset>
                                     <legend>Step 3</legend>
                                     <div class="form-row">
                                         <label for="series_number">Department and series number, for example, FO 371</label>
                                         <input type="text" id="series_number" name="series_number" class="medium">
-                                    </div>
+                                    </div><!-- end form-row -->
                                 </fieldset>
                                 <fieldset>
                                     <legend>Step 4</legend>
                                     <div class="form-row">
                                         <p class="form-hint">Enter the <b>full catalogue references</b>, for example FO 371/114865.</p>
                                         <p class="form-hint">The minimum number of documents you can bulk order is 20.</p>
-                                    </div>
+                                    </div><!-- end form-row -->
                                     <div class="container" id="form-fields">
                                         <div class="col-md-6">
                                             <div class="form-row">
                                                 <label for="reference_1">1</label>
-                                                <input type="text" id="reference_1" name="reference_1" aria-describedby="reference-1">
-                                                <!-- <span id="reference-1-error" class="form-error form-hint"><span>Insert a reference number</span></span> -->
-                                            </div>
+                                                <input type="text" id="reference_1" class="form-warning" name="reference_1" aria-describedby="reference-1">
+                                                <span id="reference-1-error" class="form-error form-hint"><span>Insert a reference number</span></span>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_2">2</label>
                                                 <input type="text" id="reference_2" name="reference_2" aria-describedby="reference-2">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_3">3</label>
                                                 <input type="text" id="reference_3" aria-describedby="reference-3">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_4">4</label>
                                                 <input type="text" id="reference_4" name="reference_4">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_5">5</label>
                                                 <input type="text" id="reference_5" name="reference_5">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_6">6</label>
                                                 <input type="text" id="reference_6" name="reference_6">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_7">7</label>
                                                 <input type="text" id="reference_7" name="reference_7">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_8">8</label>
                                                 <input type="text" id="reference_8" name="reference_8">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_9">9</label>
                                                 <input type="text" id="reference_9" name="reference_9">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_10">10</label>
                                                 <input type="text" id="reference_10" name="reference_10">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_11">11</label>
                                                 <input type="text" id="reference_11" name="reference_11">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_12">12</label>
                                                 <input type="text" id="reference_12" name="reference_12">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_13">13</label>
                                                 <input type="text" id="reference_13" name="reference_13">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_14">14</label>
                                                 <input type="text" id="reference_14" name="reference_14">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_15">15</label>
                                                 <input type="text" id="reference_15" name="reference_15">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_16">16</label>
                                                 <input type="text" id="reference_16" name="reference_16">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_17">17</label>
                                                 <input type="text" id="reference_17" name="reference_17">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_18">18</label>
                                                 <input type="text" id="reference_18" name="reference_18">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_19">19</label>
                                                 <input type="text" id="reference_19" name="reference_19">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_20">20</label>
                                                 <input type="text" id="reference_20" name="reference_20">
-                                            </div>
-                                        </div>
+                                            </div><!-- end form-row -->
+                                        </div><!-- end col-md-6 -->
                                         <div class="col-md-6">
                                             <div class="form-row">
                                                 <label for="reference_21">21</label>
                                                 <input type="text" id="reference_21" name="reference_21">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_22">22</label>
                                                 <input type="text" id="reference_22" name="reference_22">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_23">23</label>
                                                 <input type="text" id="reference_23" name="reference_23">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_24">24</label>
                                                 <input type="text" id="reference_24" name="reference_24">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_25">25</label>
                                                 <input type="text" id="reference_25" name="reference_25">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_26">26</label>
                                                 <input type="text" id="reference_26" name="reference_26">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_27">27</label>
                                                 <input type="text" id="reference_27" name="reference_27">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_28">28</label>
                                                 <input type="text" id="reference_28" name="reference_28">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_29">29</label>
                                                 <input type="text" id="reference_29" name="reference_29">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_30">30</label>
                                                 <input type="text" id="reference_30" name="reference_30">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_31">31</label>
                                                 <input type="text" id="reference_31" name="reference_31">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_32">32</label>
                                                 <input type="text" id="reference_32" name="reference_32">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_33">33</label>
                                                 <input type="text" id="reference_33" name="reference_33">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_34">34</label>
                                                 <input type="text" id="reference_34" name="reference_34">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_35">35</label>
                                                 <input type="text" id="reference_35" name="reference_35">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_36">36</label>
                                                 <input type="text" id="reference_36" name="reference_36">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_37">37</label>
                                                 <input type="text" id="reference_37" name="reference_37">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_38">38</label>
                                                 <input type="text" id="reference_38" name="reference_38">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_39">39</label>
                                                 <input type="text" id="reference_39" name="reference_39">
-                                            </div>
+                                            </div><!-- end form-row -->
                                             <div class="form-row">
                                                 <label for="reference_40">40</label>
                                                 <input type="text" id="reference_40" name="reference_40">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-row show" id="additional-requirements">
+                                            </div><!-- end form-row -->
+                                        </div><!-- end col-md-6 -->
+                                    </div><!-- end container -->
+                                    <div class="form-row" id="additional-requirements">
                                         <label for="requirements">Additional requirements <span class="optional">(optional)</span></label>
                                         <p class="form-hint">Tell us if you have any accessibility requirements or special requests. We cannot guarantee that all documents ordered will be available.</p>
                                         <textarea id="requirements" name="requirements"></textarea>
-                                    </div>
+                                    </div><!-- end form-row -->
                                 </fieldset>
                                 <fieldset>
                                     <legend>Step 5</legend>
                                     <div class="form-row">
                                         <label for="full_name">Full name</label>
                                         <input type="text" id="full_name" name="full_name">
-                                    </div>
+                                    </div><!-- end form-row -->
                                     <div class="form-row">
                                         <label for="tel">Telephone (include area code)</label>
                                         <input type="text" id="tel" name="tel">
-                                    </div>
+                                    </div><!-- end form-row -->
                                     <div class="form-row">
                                         <label for="email_address">Email address <span class="optional">(optional)</span></label>
                                         <p class="form-hint">Enter email address to receive a copy of your order.</p>
                                         <input type="email" id="email" name="email">
-                                    </div>
+                                    </div><!-- end form-row -->
                                 </fieldset>
                                 <p>The National Archives takes your privacy seriously and we are committed to the responsible handling of personal information in accordance with our Information Charter. See our <a href="https://www.nationalarchives.gov.uk/legal/privacy.htm">privacy policy</a> for more details.</p>
                                 <div class="form-row submit"><input type="submit" name="submit-rre" id="submit-tna-form" value="Continue"></div>
                             </form>
-                        </div>
+                        </div><!-- end entry-content -->
                     </article>
                 </main>
-            </div>
-        </div>
-    </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end primary -->
     <?php include 'footer.php'; ?>
