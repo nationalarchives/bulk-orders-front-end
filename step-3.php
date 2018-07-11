@@ -11,7 +11,7 @@
                             <h1>Bulk-order documents in advance</h1>
                         </div><!-- end entry-header -->
                         <div class="entry-content clearfix">
-                            <div class="arrow-steps clearfix"">
+                            <div class="arrow-steps clearfix">
                                 <ul>
                                     <li><span>1</span> Place order</li>
                                     <li><span>2</span> Check order</li>
@@ -22,7 +22,7 @@
                             <div class="emphasis-block success">
                                 <p>Your bulk order has been successfully submitted.
                                     <br>
-                                    <a href="https://www.smartsurvey.co.uk/s/AOBQR/" title="" class="small">Survey text here</a>
+                                    <a href="https://www.smartsurvey.co.uk/s/GPE7I/" title="" class="small">This is a redesigned service - your feedback will help us to improve it</a>
                                 </p>
                             </div><!-- end emphasis-block -->
                             <p>If you have entered your email address, you will receive an email confirmation of your order. You can also print this page.</p>
